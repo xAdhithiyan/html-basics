@@ -16,3 +16,9 @@ ss of each topic
 
 6-tables
 ![image](https://user-images.githubusercontent.com/113228161/213152924-fe4f8034-d445-44d9-a178-b648e7ce88e1.png)
+
+7-divs-and-spans
+![image](https://user-images.githubusercontent.com/113228161/213160501-d3fe91ed-5e1f-4cd7-b6d0-f6b533a2c661.png)
+
+8-input-and-forms
+![image](https://user-images.githubusercontent.com/113228161/213160610-a395fd1a-326d-4947-a509-cb075c003ec8.png)
