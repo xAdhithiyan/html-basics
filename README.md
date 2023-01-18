@@ -1,5 +1,5 @@
 # html-basics
-ss for each topic  
+ss of each topic  
  <hr/>
 basic-tags
 
