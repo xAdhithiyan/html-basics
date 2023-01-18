@@ -11,3 +11,6 @@ ss of each topic
 4-images-and-videos
 ![image](https://user-images.githubusercontent.com/113228161/213146301-e58eafd4-35f9-4cbf-acf8-68767388488a.png)
 
+5-lists
+![image](https://user-images.githubusercontent.com/113228161/213149581-3e906f88-cd6d-492a-9d72-0a073021f850.png)
+
