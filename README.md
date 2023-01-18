@@ -14,3 +14,5 @@ ss of each topic
 5-lists
 ![image](https://user-images.githubusercontent.com/113228161/213149581-3e906f88-cd6d-492a-9d72-0a073021f850.png)
 
+6-tables
+![image](https://user-images.githubusercontent.com/113228161/213152924-fe4f8034-d445-44d9-a178-b648e7ce88e1.png)
