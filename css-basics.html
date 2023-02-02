@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+Selectors simply refer to the HTML elements/tag to which CSS rules apply
+Types of selectors:
+    universal selector -> * 
+    type selector -> all elements in a html tag(usally div)
+    class selectors -> all elements in the html tag with a class attribute
+    id selectors ->all elements in the html tag with a id arrtibute
+
+the major difference between classes and id is that an tag can only have one id
+.subsection.header selector is for class = "subsection header"(chaining 2 class selectors)
+combinators allows to combine multiple selectors differently
+descendant combinator -> selects only the indeneded tags with all the selector -> example below
+    
+some css properties -> color, background-color, font-family(includes font and font family), font-size, font-weight, text-align
+
+The cascade is what determines which selector actually get applied to our HTML
+cascade dependence
+    -specificity(presedence of selectors id->class->tag)
+    -inheritance(exception: if the child tag is a direct selector then specifity of parent/child tag does not matter)
+    -rule order(last defined selector is choosen if 2 slectors are called)
+
+adding css to html(external css[<link rel="" href="">],internal css[<style>],inline css)    
+
+
+-->
+
+
+
+
+<html style="background-color:gray;">
+    <head>
+        <meta charset="utf-8">
+        <title>Example</title>
+        <!--css has different comment key-->
+        <style>
+            /*descendant combinator*/
+            .a .b{
+                color: white;
+                background-color: black;
+                font-family:"DejaVu Sans", sans-serif;
+                font-size:22px;
+                font-weight:bold;
+                text-align:center;
+            }
+            /* tag selector for images*/            
+            img{
+                height: auto;
+                width: 500px;
+            }
+        </style>
+<!---->
+    </head>
+
+
+
+    <body>
+        <div class = "a">
+            <div class = "b">
+                child <!--css is applied for this-->
+            </div>
+        </div>
+        <div class="b">
+            child with no parent<!--css is not applied for this-->
+        </div>
+
+        <img src="https://w0.peakpx.com/wallpaper/165/747/HD-wallpaper-beautiful-landscape-digital-art.jpg" alt="a landscape wallpaper">
+
+    </body>
+</html>
