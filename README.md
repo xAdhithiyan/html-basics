@@ -1,5 +1,5 @@
 # html-basics
-ss of each topic  
+ScreenShots of each topic  
  <hr/>
 1-basic-tags
 
