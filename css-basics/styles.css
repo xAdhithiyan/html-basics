@@ -1,0 +1,111 @@
+/*
+Selectors simply refer to the HTML elements/tag to which CSS rules apply
+Types of selectors:
+    universal selector -> * 
+    type selector -> all elements in a html tag(usally div)
+    class selectors -> all elements in the html tag with a class attribute
+    id selectors ->all elements in the html tag with a id arrtibute
+
+the major difference between classes and id is that an tag can only have one id
+
+muliple classes in a html tag or single class in html tag will work
+.subsection.header selector is for class = "subsection header"(chaining 2 class selectors)
+combinators allows to combine multiple selectors differently
+descendant combinator -> selects only the indeneded tags with all the selector -> example below
+    
+some css properties -> color, background-color, font-family(includes font and font family), font-size, font-weight, text-align
+
+The cascade is what determines which selector actually get applied to our HTML
+cascade dependence
+    -specificity(presedence of selectors id->class->type)
+    -inheritance(exception: if the child tag is a direct selector then specifity of parent/child tag does not matter)
+    -rule order(last defined selector is choosen if 2 slectors are called)
+adding css to html(external css[<link rel="" href="">],internal css[<style>],inline css)    
+
+
+Box model css -> height,width,border,padding(pushing the box from inside)and margin(pushing the box from outside)
+*/
+
+
+/*descendant combinator*/
+.a .b{
+    color: white;
+    background-color: black;
+    font-family:"DejaVu Sans", sans-serif;
+    font-size:22px;
+    font-weight:bold;
+    text-align:center;
+    
+}
+
+
+/* tag selector for images*/            
+img{
+    height: auto;
+    width: 500px;
+}
+
+
+
+/* Box model */
+.box-one ,
+.box-two,
+.box-three{
+    padding:0;
+    margin:0;
+    font-size:20px;
+    /*height and width are only for the contents of the box(excluding padding and border)*/
+    /*box-sizing: border-box -> this makes height and width,the box size regardless of padding/border value;*/
+    height:30px;
+    width:200px;
+}
+.box-one{
+    background-color: coral;
+    padding:20px;
+    border: 4px solid black;
+    margin:10px;
+}
+.box-two{
+    background-color:  lightblue;
+    padding:10px;
+    /*margin collapsing->box 1 margin overlaps box 2 margin in the space between them*/
+    margin:10px;
+
+}
+.box-three{
+    background-color: lightcyan;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-top: 4px dotted black;
+    border-left: 4px solid black;
+    border-bottom: 2px solid orange;
+    /*adding style separately*/
+    border-bottom-style:double;
+    border-bottom-width: 4px;
+    border-bottom-color:black;
+    padding-top:10px;
+    padding-left:10px;
+
+}
+
+
+/*display attributes*/
+.span{
+    /*span by default are inline containers*/
+    display:block;
+}
+.div{
+    /*div by defualy are block containers*/
+    display:inline;
+    /*height and width doesnt affect inline*/
+    height:100px;
+}
+.span2{
+    border:4px solid lightblue;
+    padding:20px;
+    margin:10px;
+    background-color: white;
+    color:black;
+    /*a mix of block and inline containers*/
+    display:inline-block;
+}   
