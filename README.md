@@ -23,7 +23,7 @@ ScreenShots of each topic
 8-input-and-forms
 ![image](https://user-images.githubusercontent.com/113228161/213160610-a395fd1a-326d-4947-a509-cb075c003ec8.png)
 
-9-iframe
+9-iframes
 ![image](https://user-images.githubusercontent.com/113228161/213164982-9969e85d-7dcc-4bbb-95c4-af7dc1fed289.png)
 
 css-basics
