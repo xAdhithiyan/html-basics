@@ -27,4 +27,5 @@ ScreenShots of each topic
 ![image](https://user-images.githubusercontent.com/113228161/213164982-9969e85d-7dcc-4bbb-95c4-af7dc1fed289.png)
 
 css-basics
-![Screenshot from 2023-02-06 01-37-31](https://user-images.githubusercontent.com/113228161/216842307-8fa10866-0d89-4bbe-8b5d-ce006e82434f.png)
+![image](https://user-images.githubusercontent.com/113228161/216962700-11ef0553-a789-4b6a-ab35-b85a63aee26d.png)
+
