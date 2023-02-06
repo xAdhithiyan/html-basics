@@ -87,6 +87,13 @@ img{
     padding-left:10px;
 
 }
+.box-four{
+    background-color: lightgreen;
+    width: 200px;
+    padding:10px;
+    /*auto centers the element*/
+    margin:10px auto;
+}
 
 
 /*display attributes*/
