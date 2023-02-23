@@ -29,8 +29,8 @@ flexbox
     -unlike inline, u can adjust width and height with flex 
 
     Flex Properties:  
-    1-flex:1; or flex:auto; [auto adjusts the items accoeding to window size](flex:1 is shorthand for flex-grow:1,flex-shrink:1,flex-basis:0)
-        -flex-basics is the threshold width of item. if the container is larger then extra space is present and if the container is smaller then the item is auto adjusted
+    1-flex:1; or flex:auto; [auto adjusts the items according to window size](flex:1 is shorthand for flex-grow:1,flex-shrink:1,flex-basis:0)
+        -flex-basis is the threshold width of item. if the container is larger then extra space is present and if the container is smaller then the item is auto adjusted
         -flex-grow and flex-shrink works relative to all the flex items
     2-flex-direction:column; (changing the flexbox direction->top to bottom)[by defualt it is row->left to right]
         -axis(main axis(the aixs the flex-direction holds) and cross axis)
