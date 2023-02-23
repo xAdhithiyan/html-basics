@@ -5,7 +5,6 @@ Types of selectors:
     type selector -> all elements in a html tag(usally div)
     class selectors -> all elements in the html tag with a class attribute
     id selectors ->all elements in the html tag with a id arrtibute
-
 the major difference between classes and id is that an tag can only have one id
 
 muliple classes in a html tag or single class in html tag will work
@@ -22,8 +21,26 @@ cascade dependence
     -rule order(last defined selector is choosen if 2 slectors are called)
 adding css to html(external css[<link rel="" href="">],internal css[<style>],inline css)    
 
+Box model
+    -> height,width,border,padding(pushing the box from inside)and margin(pushing the box from outside)
 
-Box model css -> height,width,border,padding(pushing the box from inside)and margin(pushing the box from outside)
+flexbox
+    -A flex container is the parent element that has display:flex on it. A flex item is any element that lives directly inside of a flex container.    
+    -unlike inline, u can adjust width and height with flex 
+
+    Flex Properties:  
+    1-flex:1; or flex:auto; [auto adjusts the items accoeding to window size](flex:1 is shorthand for flex-grow:1,flex-shrink:1,flex-basis:0)
+        -flex-basics is the threshold width of item. if the container is larger then extra space is present and if the container is smaller then the item is auto adjusted
+        -flex-grow and flex-shrink works relative to all the flex items
+    2-flex-direction:column; (changing the flexbox direction->top to bottom)[by defualt it is row->left to right]
+        -axis(main axis(the aixs the flex-direction holds) and cross axis)
+    3-justify-content:flex-start/flex-end/center/space-around/space-between/space-evenly; (aligns items in the main aixs)
+    4-align-items:flex-start/flex-end/center; (alings items in the cross aixs)
+        -to align indiviual items use aling-self:<>;
+    5-gap:8px; (adds gap between flex items)
+
+
+
 */
 
 
@@ -35,7 +52,6 @@ Box model css -> height,width,border,padding(pushing the box from inside)and mar
     font-size:22px;
     font-weight:bold;
     text-align:center;
-    
 }
 
 
@@ -116,3 +132,20 @@ img{
     /*a mix of block and inline containers*/
     display:inline-block;
 }   
+
+/*flexbox*/
+.flex-containers{
+    border:6px solid rebeccapurple;
+    display:flex;
+    margin: 10px;
+}
+.flex-containers .flex-items{
+    background-color: lightpink;
+    color: black;
+    font-size:22px;
+    flex:1;
+}
+.flex-containers .hola{
+    background-color: green;
+    flex:2;
+}
