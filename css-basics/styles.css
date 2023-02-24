@@ -34,6 +34,7 @@ flexbox
         -flex-grow and flex-shrink works relative to all the flex items
     2-flex-direction:column; (changing the flexbox direction->top to bottom)[by defualt it is row->left to right]
         -axis(main axis(the aixs the flex-direction holds) and cross axis)
+        -main axis is the direction in which the flex items are laid out. cross axis the direction in which the flex items are strected
     3-justify-content:flex-start/flex-end/center/space-around/space-between/space-evenly; (aligns items in the main aixs)
     4-align-items:flex-start/flex-end/center; (alings items in the cross aixs)
         -to align indiviual items use align-self:<>;
